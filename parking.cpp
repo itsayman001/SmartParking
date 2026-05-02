@@ -7,8 +7,8 @@ using namespace std;
 
 class Vehicle {
 public:
-    string licensePlate;
-    time_t entryTime;
+        string licensePlate;
+            time_t entryTime;
     Vehicle(string plate) : licensePlate(plate), entryTime(time(NULL)) {}
 };
 
