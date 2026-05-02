@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Parking System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="parking.js" defer></script>
+</head>
+<body>
+    <h1>Smart Parking System</h1>
+
+    <div class="controls">
+        <input type="text" id="plateInput" placeholder="Enter license plate">
+        <button onclick="parkVehicle()">Park Vehicle</button>
+        <button onclick="removeVehicle()">Remove Vehicle</button>
+        <button onclick="displayStatus()">Display Parking Status</button>
+    </div>
+
+    <div id="status"></div>
+</body>
+</html>
